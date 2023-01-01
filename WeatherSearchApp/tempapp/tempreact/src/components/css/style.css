@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
+* {
+    box-sizing: border-box;
+    text-align: center;
+    color:rgb(3, 51, 24);
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: radial-gradient(#4c525e,#717886, #c3d1d1);
+}
+.box {
+    background-image: radial-gradient(rgb(76, 210, 243) 100%,rgb(52, 78, 194) 100%);
+    padding: 1rem;
+    border-radius: 25px;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    margin-left:15%;
+    margin-top:5%;
+    width:70%;
+    height:50%;
+}
+.Card-inside{
+    display: flex;
+    margin-left:3%;
+    margin-right:3%;
+}
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    width:100%;  
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
+}
+.Heading {
+    font-family:"Rancho";
+    font-size:70px;
+    color: rgb(13, 20, 4);
+}
+@keyframes body-change {
+    50% {
+        background-color: #193774;
+    }
+}
+.d3effect {
+    box-shadow: 5px 10px 10px 1px;
+    background-image: linear-gradient(#FFF,transparent);
+    perspective: 500px;
+    width: 90%;
+    margin:2%;
+    padding: 1%;
+}
